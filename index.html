@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Pinturas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Galeria de Pinturas</h1>
+        <p>Por [Nome da Artista]</p>
+    </header>
+    <main>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="pintura1.jpg" alt="Pintura 1">
+                <div class="caption">Título da Pintura 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="pintura2.jpg" alt="Pintura 2">
+                <div class="caption">Título da Pintura 2</div>
+            </div>
+            <div class="gallery-item">
+                <img src="pintura3.jpg" alt="Pintura 3">
+                <div class="caption">Título da Pintura 3</div>
+            </div>
+            <div class="gallery-item">
+                <img src="pintura4.jpg" alt="Pintura 4">
+                <div class="caption">Título da Pintura 4</div>
+            </div>
+            <div class="gallery-item">
+                <img src="pintura5.jpg" alt="Pintura 5">
+                <div class="caption">Título da Pintura 5</div>
+            </div>
+            <div class="gallery-item">
+                <img src="pintura6.jpg" alt="Pintura 6">
+                <div class="caption">Título da Pintura 6</div>
+            </div>
+            <!-- Adicione mais itens conforme necessário -->
+        </div>
+        
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-image">
+            <div id="caption"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Nome da Artista]. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
